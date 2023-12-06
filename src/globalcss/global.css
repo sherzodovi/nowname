@@ -1,0 +1,202 @@
+.bg {
+	background-color: #d5d5dc;
+	height: max-content !important;
+	/* height: 100vh !important; */
+}
+
+.flex-center {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+}
+.flex-around {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: space-around !important;
+}
+.flex-between {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: space-between !important;
+}
+.left {
+    margin-left: 90px;
+}
+.flex-wrap {
+	display: flex !important;
+	flex-wrap: wrap !important;
+}
+.flex-column {
+	flex-direction: column;
+}
+
+.x-center {
+	display: flex !important;
+	justify-content: center !important; 
+}
+
+.y-center {
+	display: flex !important;
+	align-items: center !important; 
+}
+
+/* .flex-column {
+	flex-direction: ;
+} */
+
+
+/* widthlar */
+.wd-100 {
+	width: 100%;
+}
+.wd-90 {
+	width: 90%;
+}
+.wd-80 {
+	width: 80%;
+}
+.wd-70 {
+	width: 70%;
+}
+.wd-60 {
+	width: 60%;
+}
+.wd-50 {
+	width: 50%;
+}
+.wd-40 {
+	width: 40%;
+}
+.wd-30 {
+	width: 30%;
+}
+.wd-20 {
+	width: 20%;
+}
+.wd-10 {
+	width: 10%;
+}
+
+.wdp-100 {
+	width: 100px;
+}
+.wdp-90 {
+	width: 90px;
+}
+.wdp-80 {
+	width: 80px;
+}
+.wdp-70 {
+	width: 70px;
+}
+.wdp-60 {
+	width: 60px;
+}
+.wdp-50 {
+	width: 50px;
+}
+.wdp-40 {
+	width: 40px;
+}
+.wdp-30 {
+	width: 30px;
+}
+.wdp-20 {
+	width: 20px;
+}
+.wdp-10 {
+	width: 10px;
+}
+/* widthlar */
+
+
+/* heightlar */
+.hd-100 {
+	height: 100%;
+}
+.hd-90 {
+	height: 90%;
+}
+.hd-80 {
+	height: 80%;
+}
+.hd-70 {
+	height: 70%;
+}
+.hd-60 {
+	height: 60%;
+}
+.hd-50 {
+	height: 50%;
+}
+.hd-40 {
+	height: 40%;
+}
+.hd-30 {
+	height: 30%;
+}
+.hd-20 {
+	height: 20%;
+}
+.hd-10 {
+	height: 10%;
+}
+
+.hdp-100 {
+	height: 100px;
+}
+.hdp-90 {
+	height: 90px;
+}
+.hdp-80 {
+	height: 80px;
+}
+.hdp-70 {
+	height: 70px;
+}
+.hdp-60 {
+	height: 60px;
+}
+.hdp-50 {
+	height: 50px;
+}
+.hdp-40 {
+	height: 40px;
+}
+.hdp-30 {
+	height: 30px;
+}
+.hdp-20 {
+	height: 20px;
+}
+.hdp-10 {
+	height: 10px;
+}
+.hdp-200 {
+	height: 150px;
+}
+/* hieghtlar */
+
+
+.h-m-content {
+	height: max-content !important;
+}
+
+.w-m-content {
+	width: max-content !important;
+}
+.circle {
+	border-radius: 50%;
+}
+.border-5 {
+	border-radius: 5px !important;
+}
+.border-10 {
+	border-radius: 10px !important;
+}
+.border-15 {
+	border-radius: 15px !important;
+}
+.border-20 {
+	border-radius: 20px !important;
+}

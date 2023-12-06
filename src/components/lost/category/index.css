@@ -1,0 +1,35 @@
+@media only screen and (max-width: 720px) {
+	.xxxx {
+		display: block !important;
+	}
+	.nn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 540px) {
+	.xxxx {
+		display: block !important;
+		width: 100% !important;
+	}
+	.nn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+@media only screen and (max-width: 390px) {
+	.xxxx {
+		display: flex !important;
+		flex-direction: column !important;
+		justify-content: center !important;
+		align-items: center !important;
+	}
+	.card {
+		width: 90%;
+		margin: 20px;
+	}
+}
