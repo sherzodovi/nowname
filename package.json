@@ -51,21 +51,23 @@
     "axios": "^1.6.2",
     "bootstrap": "4.6.2",
     "classnames": "2.3.2",
+    "dom": "^0.0.3",
     "headroom.js": "0.12.0",
     "mdb-react-ui-kit": "^7.0.0",
     "moment": "2.29.4",
     "nouislider": "15.4.0",
-    "react": ">=16.0.0",
+    "react": "^18.2.0",
     "react-datetime": "3.2.0",
     "react-dom": ">=16.0.0",
     "react-icons": "^4.12.0",
+    "react-multi-carousel": "^2.8.4",
+    "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "6.11.1",
     "react-scripts": "5.0.1",
-    "reactstrap": "8.10.0",
+    "reactstrap": "^8.10.0",
     "sass": "1.62.1"
   },
   "peerDependencies": {
-    "react": ">=16.0.0",
     "react-dom": ">=16.0.0"
   },
   "devDependencies": {
