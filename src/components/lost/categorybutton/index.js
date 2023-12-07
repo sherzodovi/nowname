@@ -1,5 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import { NavLink } from 'react-router-dom'
+import { Nav, NavItem } from 'reactstrap'
 import './index.css'
 
 function LostCategory() {
@@ -11,20 +13,19 @@ function LostCategory() {
 
 	function getCategory() {
 		axios.get('https://lostfoundapi.pythonanywhere.com/category/').then(res => {
+			console.log(res.data)
 			setCategory(res.data)
 		})
 	}
 
 	return (
-		// <Button className='btn-icon btn-3 ml-1' color='primary' type='button'>
-
-		// 	<span className='btn-inner--text'></span>
-		// </Button>
-		<div className='bnt_c'>
+		<Nav justified tabs className='mb-5'>
 			{category.map((item, i) => (
-				<div></div>
+				<NavItem>
+					<NavLink href='#'>{item.name}</NavLink>
+				</NavItem>
 			))}
-		</div>
+		</Nav>
 	)
 }
 
