@@ -21,6 +21,7 @@ function Lostedcard() {
 	const [modal, setModal] = useState(false)
 	const toggle = () => setModal(!modal)
 
+	
 	return (
 		<>
 			<div class='ccc card-deck'>
