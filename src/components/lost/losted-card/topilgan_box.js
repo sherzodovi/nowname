@@ -6,7 +6,18 @@ import './topilgan_box.css'
 
 function Lostedcard() {
 
+	const [lost, setLost] = useState([])
 
+	useEffect(() => {
+		getLost()
+	}, [])
+
+	function getLost() {
+		axios.get("https://lostfoundapi.pythonanywhere.com/item/").then((res) =>{
+			setLost(res.data)
+		})
+		.catch(() => {})
+	}
 	const [modal, setModal] = useState(false)
 	const toggle = () => setModal(!modal)
 
