@@ -9,12 +9,9 @@ function Lost() {
 			<div>
 				{/* <DemoNavbar /> */}
 				<Container className='d-flex justify-content-center'>
-					<LostCategory />
-					<LostCategory />
-					<LostCategory />
-					<LostCategory />
 				</Container>
 				<div className='mt-5'>
+					<LostCategory />
 					<Lostedcard />
 				</div>
 			</div>

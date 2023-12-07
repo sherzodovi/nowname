@@ -1,3 +1,5 @@
-.btn-icon::after {
-    background-color: aqua !important;
+.bnt_c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

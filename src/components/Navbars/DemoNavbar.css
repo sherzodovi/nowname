@@ -83,14 +83,10 @@ nav {
 		margin: 10px;
 	}
 	.img {
-		width: 14% !important;
+		width: 9% !important;
 	}
 }
 
 .img {
 	width: 4%;
-}
-
-Button {
-	float: right !important;
 }
