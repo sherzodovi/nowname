@@ -29,6 +29,8 @@ class Hero extends React.Component {
 								<Row className='align-items-center justify-content-center'>
 								</Row>
 								<img src={logo} alt="" className='img_1' />
+								<h1 className="heading1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quae.</h1>
+
 							</div>
 
 						</Container>
