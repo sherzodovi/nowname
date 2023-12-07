@@ -1,9 +1,10 @@
 import { useRef } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
-import { Button } from 'reactstrap'
+import { Button, Dropdown, DropdownItem, DropdownMenu, DropdownToggle, UncontrolledDropdown } from 'reactstrap'
 import img from '../../assets/img/img/output-onlinepngtools (3).png'
 import './DemoNavbar.css'
+
 
 function DemoNavbar() {
 	const navRef = useRef()
@@ -16,12 +17,7 @@ function DemoNavbar() {
 		<header className='head'>
 			<img src={img} alt='' className='img' />
 			<nav ref={navRef}>
-				<Button className='btn' color='primary' to='/register-page'>
-					<Link to='/register'>Register</Link>
-				</Button>
-				<Button color='success' className='btn'>
-					<Link to='/login'>Login</Link>
-				</Button>
+				
 				<button className='nav-btn  nav-close-btn' onClick={showNavbar}>
 					<FaTimes />
 				</button>
@@ -29,7 +25,33 @@ function DemoNavbar() {
 			<button className='nav-btn' onClick={showNavbar}>
 				<FaBars />
 			</button>
+			
+
+			<UncontrolledDropdown
+    className="me-2"
+    direction="down"
+  >
+    <DropdownToggle
+      caret
+      color="primary" >
+      sing up
+    </DropdownToggle>
+    <DropdownMenu>
+      <DropdownItem divider />
+	  <DropdownItem>
+	  <Link to='/register'>Register</Link>
+      </DropdownItem>
+	  <DropdownItem>
+	  <Link to='/register'>Login</Link>
+      </DropdownItem>
+    </DropdownMenu>
+  </UncontrolledDropdown>
+  
+
+
 		</header>
+
+		
 	)
 }
 

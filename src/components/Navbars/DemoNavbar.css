@@ -31,7 +31,9 @@ header .nav-btn {
 	color: var(--textColor);
 	visibility: hidden;
 	opacity: 0;
-	font-size: 1.8rem;
+	margin-right: -40rem;
+	
+	
 }
 
 header div,
@@ -60,7 +62,9 @@ nav {
 		z-index: 100;
 		background-color: var(--mainColor) !important;
 		transition: 1s;
+		
 	}
+	
 
 	header .responsive_nav {
 		transform: translateY(100vh);
