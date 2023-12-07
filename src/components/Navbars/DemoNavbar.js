@@ -17,7 +17,33 @@ function DemoNavbar() {
 		<header className='head'>
 			<img src={img} alt='' className='img' />
 			<nav ref={navRef}>
-				
+			<Button className='btn' color='primary' to='/register-page' id='Register'>
+					<Link to='/register'>Home</Link>
+				</Button>
+				<Button color='success' className='btn'>
+					<Link to='/login'>About</Link>
+				</Button>
+				<UncontrolledDropdown
+    className="me-2"
+    direction="down"
+  >
+    <DropdownToggle
+      caret
+      color="primary"
+	  me=""
+    >
+      Dropdown
+    </DropdownToggle>
+    <DropdownMenu>
+      <DropdownItem header>
+	  <Link to='/register'>Register</Link>
+      </DropdownItem>
+      <DropdownItem disabled>
+	  <Link to='/login'>Lo</Link>
+      </DropdownItem>
+    
+    </DropdownMenu>
+  </UncontrolledDropdown>
 				<button className='nav-btn  nav-close-btn' onClick={showNavbar}>
 					<FaTimes />
 				</button>
@@ -25,7 +51,6 @@ function DemoNavbar() {
 			<button className='nav-btn' onClick={showNavbar}>
 				<FaBars />
 			</button>
-			
 
 			<UncontrolledDropdown
     className="me-2"
@@ -33,17 +58,19 @@ function DemoNavbar() {
   >
     <DropdownToggle
       caret
-      color="primary" >
-      sing up
+      color="primary"
+	  me=""
+    >
+      Dropdown
     </DropdownToggle>
     <DropdownMenu>
-      <DropdownItem divider />
-	  <DropdownItem>
-	  <Link to='/register'>Register</Link>
+      <DropdownItem header>
+	  Register
       </DropdownItem>
-	  <DropdownItem>
-	  <Link to='/register'>Login</Link>
+      <DropdownItem disabled>
+	  Login
       </DropdownItem>
+    
     </DropdownMenu>
   </UncontrolledDropdown>
   
