@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
 :root {
-	--mainColor: #29335c;
+	--mainColor: #3081D0;
 	--mainColorLight: #5767aa;
 	--secondaryColor: #db2b39;
 	--textColor: #eee;
@@ -9,11 +9,18 @@
 header {
 	display: flex;
 	align-items: center;
-	justify-content: space-between !important;
+	justify-content: space-between ;
 	height: 80px;
 	padding: 0 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
+}
+.navbart{
+	margin-left: 50rem;
+}
+.navbart>a:hover{
+	color: white!important;
+	text-decoration: underline;
 }
 
 nav a {
@@ -21,7 +28,9 @@ nav a {
 	color: var(--textColor);
 	text-decoration: none;
 }
-
+.navbart{
+	margin-right: 0rem;
+}
 header .nav-btn {
 	padding: 5px;
 	cursor: pointer;
@@ -40,6 +49,16 @@ header div,
 nav {
 	display: flex;
 	align-items: center;
+}
+.drop{
+	width: 5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--textColor);
+}
+.drop:hover{
+	color: var(--textColor);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -89,4 +108,8 @@ nav {
 
 .img {
 	width: 4%;
+}
+.img_1{
+	width:300px;
+
 }
