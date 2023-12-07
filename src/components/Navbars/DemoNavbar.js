@@ -25,7 +25,6 @@ function DemoNavbar() {
 			<button className='nav-btn' onClick={showNavbar}>
 				<FaBars />
 			</button>
-
 			
 
 			<UncontrolledDropdown
