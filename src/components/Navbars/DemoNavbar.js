@@ -17,69 +17,74 @@ function DemoNavbar() {
 		<header className='head'>
 			<img src={img} alt='' className='img' />
 			<nav ref={navRef}>
-			<Button className='btn' color='primary' to='/register-page' id='Register'>
-					<Link to='/register'>Home</Link>
-				</Button>
-				<Button color='success' className='btn'>
-					<Link to='/login'>About</Link>
-				</Button>
-				<UncontrolledDropdown
-    className="me-2"
+                <div className="d-flex justify-content-end ms-5 navbart">
+                    <Link to='/'>Home</Link>
+                    <Link to='/register'>About</Link>
+                    <Link to='/register'>Contact</Link>
+                </div>
+			</nav>
+			{/*<button className='nav-btn' onClick={showNavbar}>*/}
+			{/*	<FaBars />*/}
+			{/*</button>*/}
+
+
+            <UncontrolledDropdown
+    className="me-5"
     direction="down"
   >
+
     <DropdownToggle
       caret
-      color="primary"
-	  me=""
+      color="#3081D0"
+	  me="5"
+      className="drop"
     >
-      Dropdown
+        Items
     </DropdownToggle>
     <DropdownMenu>
-      <DropdownItem header>
-	  <Link to='/register'>Register</Link>
+      <DropdownItem >
+	  <Link to='/lost'>Lost</Link>
       </DropdownItem>
-      <DropdownItem disabled>
-	  <Link to='/login'>Lo</Link>
+      <DropdownItem>
+	  <Link to='/found'>Found</Link>
       </DropdownItem>
-    
+
     </DropdownMenu>
   </UncontrolledDropdown>
-				<button className='nav-btn  nav-close-btn' onClick={showNavbar}>
-					<FaTimes />
-				</button>
-			</nav>
-			<button className='nav-btn' onClick={showNavbar}>
-				<FaBars />
-			</button>
+
 
 			<UncontrolledDropdown
-    className="me-2"
+    className="me-5"
     direction="down"
   >
     <DropdownToggle
       caret
-      color="primary"
-	  me=""
+      color="#3081D0"
+	  me="5"
+      className="drop"
     >
-      Dropdown
+      Sign up
     </DropdownToggle>
     <DropdownMenu>
-      <DropdownItem header>
-	  Register
+      <DropdownItem >
+	  <Link to='/register'>Register</Link>
       </DropdownItem>
-      <DropdownItem disabled>
-	  Login
+      <DropdownItem>
+	  <Link to='/login'>Login</Link>
       </DropdownItem>
-    
+
     </DropdownMenu>
   </UncontrolledDropdown>
-  
 
 
 		</header>
 
-		
+
+
+
+
 	)
+
 }
 
 export default DemoNavbar
