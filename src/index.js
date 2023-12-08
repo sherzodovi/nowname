@@ -11,6 +11,7 @@ import Landing from 'views/examples/Landing.js'
 import Login from 'views/examples/Login'
 import Profile from 'views/examples/Profile.js'
 import Register from 'views/examples/Register.js'
+import UserPage from "./views/examples/UserPage";
 import Lostedcard from 'components/lost/found_card/topilgan_box'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
@@ -23,6 +24,7 @@ root.render(
 			<Route path='/login-page' exact element={<Login />} />
 			<Route path='/profile-page' exact element={<Profile />} />
 			<Route path='/register-page' exact element={<Register />} />
+			<Route path='/user-page' exact element={<UserPage />} />
 			<Route path='*' element={<Navigate to='/' replace />} />
 			<Route path='/Lost' exact element={<Lost />} />
 			<Route path='/register' exact element={<Register />} />
