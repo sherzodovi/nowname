@@ -1,0 +1,28 @@
+.tablecha thead tr td {
+	padding: 7px 0 !important;
+}
+.tablecha {
+	width: 100% !important;
+}
+.tablecha thead {
+	width: 100% !important;
+}
+.tablecha thead tr {
+	width: 50% !important;
+}
+.need {
+	position: relative;
+}
+.need > div {
+	top: -10px;
+	left: 20px;
+	border-radius: 15px;
+	background-color: aliceblue;
+	border: 2px solid #097df8;
+	position: absolute;
+	padding: 3px 20px;
+}
+.need textarea {
+	border: 2px solid #097df8;
+	border-radius: 15px;
+}

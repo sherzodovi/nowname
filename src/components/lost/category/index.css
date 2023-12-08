@@ -33,3 +33,15 @@
 		margin: 20px;
 	}
 }
+
+@media only screen and (max-width: 768px) {
+	.xxxx {
+		display: block !important;
+		width: 100% !important;
+	}
+	.nn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+}

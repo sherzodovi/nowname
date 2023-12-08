@@ -1,6 +1,6 @@
 import { Container } from 'reactstrap'
 import './index.css'
-import Lostedcard from './losted-card/topilgan_box'
+import Lostedcard from './found_card/topilgan_box'
 import LostCategory from './categorybutton'
 
 function Lost() {

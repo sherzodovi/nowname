@@ -2,16 +2,18 @@
 	width: 25%;
 	margin-left: -1rem;
 }
-.heading1{
+.heading1 {
 	color: white;
 	width: 70%;
 	position: absolute;
 	left: 500px;
 	top: 50px;
 }
-@media screen and (max-width: 500px) {
-	.heading1{
-		margin-left: -31rem;
+
+@media screen and (max-width: 576px) {
+	.heading1 {
+		text-align: center;
+		margin-left: -30rem !important;
 		margin-top: -10rem;
 		font-size: 35px;
 		width: 500px;
@@ -19,6 +21,36 @@
 	.img_1 {
 		width: 30%;
 		margin-top: 7rem;
-		margin-left: 10rem;
+		margin-left: 12rem !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.heading1 {
+		text-align: center;
+		margin-left: -24.5rem;
+		margin-top: -10rem;
+		font-size: 35px;
+		width: 500px;
+	}
+	.img_1 {
+		width: 30%;
+		margin-top: 7rem;
+		margin-left: 16rem;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.heading1 {
+		text-align: center;
+		margin-left: -17rem;
+		margin-top: -10rem;
+		font-size: 35px;
+		width: 500px;
+	}
+	.img_1 {
+		width: 30%;
+		margin-top: 7rem;
+		margin-left: 22rem;
 	}
 }

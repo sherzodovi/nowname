@@ -5,7 +5,6 @@ import img from '../../../assets/img/theme/team-1-800x800.jpg'
 import './topilgan_box.css'
 
 function Lostedcard() {
-
 	const [lost, setLost] = useState([])
 
 	useEffect(() => {
@@ -13,15 +12,16 @@ function Lostedcard() {
 	}, [])
 
 	function getLost() {
-		axios.get("https://lostfoundapi.pythonanywhere.com/item/").then((res) =>{
-			setLost(res.data)
-		})
-		.catch(() => {})
+		axios
+			.get('https://lostfoundapi.pythonanywhere.com/item/')
+			.then(res => {
+				setLost(res.data)
+			})
+			.catch(() => {})
 	}
 	const [modal, setModal] = useState(false)
 	const toggle = () => setModal(!modal)
 
-	
 	return (
 		<>
 			<div class='ccc card-deck'>
@@ -34,9 +34,6 @@ function Lostedcard() {
 							lead-in to additional content. This content is a little bit
 							longer.
 						</p>
-
-
-
 					</div>
 					<div class='card-footer'>
 						<small class='text-muted'>Last updated 3 mins ago</small>

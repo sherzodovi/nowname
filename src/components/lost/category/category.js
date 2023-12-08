@@ -26,7 +26,7 @@ function Category() {
 					</CardHeader>
 					<CardBody>
 						<h2>Topilgan Buyumlar</h2>
-						<Link to='/Lost' className='btn btn-primary'>
+						<Link to='/found' className='btn btn-primary'>
 							More
 						</Link>
 					</CardBody>
