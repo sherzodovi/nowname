@@ -11,8 +11,8 @@ import Landing from 'views/examples/Landing.js'
 import Login from 'views/examples/Login'
 import Profile from 'views/examples/Profile.js'
 import Register from 'views/examples/Register.js'
-import UserPage from "./views/examples/UserPage";
 import Lostedcard from 'components/lost/found_card/topilgan_box'
+import UserPage from 'views/examples/UserPage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
